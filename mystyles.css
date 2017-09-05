@@ -1,0 +1,80 @@
+	body {
+    	background-image: url("bg.jpg");
+    	background-attachment: fixed;
+    	background-repeat: no-repeat;
+		background-size: cover;
+		color: white ; 
+	   	font-weight: bold;
+	}
+
+
+	h1{
+		font-size: 70px; 
+    	margin: 50px auto;
+	}
+	
+	h4 { 
+		font-size: 22px; 
+    	border-radius: 8px; 
+    	margin: 40px auto;
+	}
+	
+	.box {
+    	margin: 30px auto;
+    	padding: 20px ;
+	}
+	
+	label { 
+		font-size: 20px;
+	}
+	
+	input {
+    	background: transparent;
+    	padding: 15px 20px; 
+    	margin: 0 10px ;
+    	border-radius: 8px ;
+		font-size: 18px;
+	}
+	
+	input[type=submit] {
+		font-size: 15px;
+		color: darkblue;
+    	padding:5px 15px; 
+    	margin: 10px;
+    	background:#ccc; 
+    	cursor:pointer;
+    	-webkit-border-radius: 5px;
+    	border-radius: 5px; 
+    	
+	}
+	
+	input[type=submit]:hover {
+    	background:#eee; 
+	}
+	
+	.weatherResults {
+		width: 60%;
+		font-family: "Arial"; 
+		padding: 20px; 
+		font-size: 16px; 
+		border-radius: 10px; 
+		background: white; 
+		color:black;
+		font-weight: bold;
+	}
+	
+	.timeResults{ 
+		width: 60%;
+		font-family: "Courier"; 
+		font-size: 24px; 
+		background: white; 
+		color:black;
+		border-radius: 10px; 
+		margin: 10px;
+	}
+	
+	#map {
+    	height: 250px;
+        width: 60%;
+        margin: 20px;
+    }
